@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>珠峰培训2017-14JS</title>
+    <style>
+        #box{
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            left: 0;
+            top: 10px;
+            background: yellowgreen;
+            opacity: 0;
+        }
+    </style>
+</head>
+<body>
+<div id="box"></div>
+</body>
+</html>
+<script type="text/javascript" src="js/public.js"></script>
+<script type="text/javascript">
+    // $.setCss(box,"width",300);
+    // $.setCss(box,"height",300);
+    // $.setCss(box,"opacity",1);
+    // $.setCss(box,"left",100);
+    // $.setCss(box,"top",100);
+    $.setGroupCss(box,{width:300,height:300,left:100,top:100,opacity:1})
+</script>
